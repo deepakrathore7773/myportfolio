@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Deepak kumar— Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header> 
+    <div class="container">
+<nav>
+<div class="brand">
+<div>
+<h1>Deepak kumar</h1>
+<div class="muted" style="font-size:12px">AI Researcher &  Data scientist</div>
+</div>
+</div>
+
+
+<div class="navlinks">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+</div>
+
+</header>
+<main class="container">
+<section class="hero">
+<div class="intro">
+<h2>Hi — I'm <span style="background:linear-gradient(90deg,var(--accent),#4cc9f0);-webkit-background-clip:text;background-clip:text;color:transparent;">Deepak kumar</span></h2>
+<p>I am an AI & Data Science student with a strong passion for exploring how data-driven insights and intelligent systems can solve real-world problems. I am eager to begin my career as a Data Scientist and AI Researcher, contributing to impactful projects in a reputed organization.</p>
+<div class="cta">
+<a class="btn" href="#projects">See my work</a>
+</div>
+<div style="margin-top:1.25rem;color:var(--muted);font-size:0.95rem;">Available for freelance</div>
+</div>
+
+
+<aside class="card profile">
+<div class="avatar">
+  <img src="WhatsApp Image 2025-10-17 at 10.39.03_dc60ca80.jpg" alt="Profile Photo">
+</div>
+<h1>Deepak kumar</h1>
+<p class="muted">AI Researcher &  Data scientist</p>
+<div style="display:flex;gap:0.5rem;margin-top:0.75rem">
+<a class="btn" href="" >Resume</a>
+</div>
+</aside>
+</section>
+
+
+<section id="about">
+<h3 class="section-title">About</h3>
+<div class="card" style="display:grid;grid-template-columns:1fr 280px;gap:1rem;align-items:start">
+<div>
+<p>I am constantly learning and experimenting with new tools, frameworks, and research papers to stay updated with the latest trends in AI. I believe in combining theoretical knowledge with practical implementation to build solutions that are both innovative and meaningful. My goal is to contribute to the growth of the company I work with while becoming a skilled and responsible AI professional.</p>
+<ul style="color:var(--muted);margin-top:0.8rem">
+<li>Build three projects</li>
+<li>Strong focus on performance & accessibility</li>
+</ul>
+</div>
+<div style="display:flex;flex-direction:column;gap:0.6rem">
+<div class="card" style="padding:0.6rem">Education
+<div class="muted" style="font-size:0.9rem;margin-top:0.4rem">B.Tech  in Artificial Intelligence and Data science — Arya college of Engineerin and IT</div>
+</div>
+<div class="card" style="padding:0.6rem">Interests
+<div class="muted" style="font-size:0.9rem;margin-top:0.4rem">Machine Learning, Deep Learning,Computer Vision, Data Visualization, AI Research</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<h3 class="section-title">Projects</h3>
+<div class="projects-grid">
+<article class="project card" tabindex="0">
+<h4>Live speedometer</h4>
+<p class="muted">A computer-vision based speedometer that detects moving objects in live video feed and estimates their real-time speed. .</p>
+<div class="tags">
+<span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">Machine learning</span>
+</div>
+<div style="margin-top:0.8rem;display:flex;gap:0.5rem">
+</div>
+</article>
+
+
+<article class="project card" tabindex="0">
+<h4>E-Commerce Frontend</h4>
+<p class="muted"> A responsive shopping website UI with product listing, filters, cart preview
+    drawer and checkout page built with modern frontend tooling.
+</p>
+<div class="tags"><span class="tag">Javascript</span><span class="tag">HTML/CSS</span></div>
+<div style="margin-top:0.8rem;display:flex;gap:0.5rem">
+</div>
+</article>
+
+
+<article class="project card" tabindex="0">
+<h4>Weather App</h4>
+<p class="muted">A simple weather app that fetches current weather by city using a public API.</p>
+<div class="tags"><span class="tag">javascript</span><span class="tag">API</span> <span class="tag">HTML/CSS</span>
+</div>
+<div style="margin-top:0.8rem;display:flex;gap:0.5rem">
+</div>
+</article>
+</div>
+</section>
+
+
+<section id="skills">
+<h3 class="section-title">Skills</h3>
+<div class="card">
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">CSS </div>
+<div class="skill">JavaScript</div>
+<div class="skill">React</div>
+
+<div class="skill">C/C++</div>
+
+</div>
+</div>
+</section>
+
+
+<aside class="card">
+<h4>Let's work together</h4>
+<p class="muted">Email me at <a href="deepakrawnarajput100@gmail.com">deepakrawnarajput100@gmail.com</a> or send a message using the form.</p>
+<div style="margin-top:0.6rem">
+<strong class="muted">Location</strong>
+<div class="muted">Jaipur,Rajasthan</div>
+</div>
+</aside>
+</div>
+</section>
+
+  <footer>
+<div class="container">
+<div style="display:flex;justify-content:center;gap:1rem;align-items:center;margin-bottom:0.6rem">
+<a href="https://github.com/deepakrathore7773">GitHub</a>
+<a href="#">LinkedIn</a>
+</div>
+</div>
+</footer>
+
+  <dialog id="projectModal" style="border-radius:12px;background:linear-gradient(180deg,var(--card),#091223);border:1px solid rgba(255,255,255,0.04);padding:1rem;color:inherit;max-width:720px;width:calc(100% - 2rem)">
+<h3 id="modalTitle"></h3>
+<p id="modalBody" class="muted"></p>
+<div style="display:flex;justify-content:flex-end;gap:0.5rem;margin-top:1rem">
+<button class="btn" id="closeModal">Close</button>
+</div>
+</dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
